@@ -1,0 +1,27 @@
+.container {
+  width: 75%;
+  margin: 70px auto;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nickname {
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: default;
+}
+
+.lifestyle {
+  text-align: left;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  line-height: 37px;
+  margin-left: 2.4rem;
+  font-weight: bold;
+}

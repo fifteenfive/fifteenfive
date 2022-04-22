@@ -1,0 +1,59 @@
+.input_row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  width: 80%; 
+  justify-content: center;
+  color: #222;
+}
+
+.input_row label {
+  margin-right: 20px;
+  width: 8rem;
+}
+
+.input_row input {
+  font-size: 14px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 2px 5px;
+  width: 160px;
+  font-family: 'SUIT-Medium';
+}
+
+.input_row input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #b3d4fc;
+}
+
+.setting_icon {
+  position: absolute;
+  bottom: 20px;
+  right: -10px;
+  cursor: pointer;
+  color: gray;
+}
+
+.profile_box {
+  position: relative
+}
+
+.botton_box {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 5px ;
+  width: 70%;
+}
+
+.resign {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.resign:hover {
+  text-decoration: underline;
+  text-decoration-color: gray;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.container p {
+  cursor: default;
+}
+
+.element_box {
+  display: flex;
+  margin-left: 50px;
+}

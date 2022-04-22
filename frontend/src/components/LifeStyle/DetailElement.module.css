@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* font-weight: bold; */
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.element_box {
+  display: flex;
+  margin-left: 10px;
+}

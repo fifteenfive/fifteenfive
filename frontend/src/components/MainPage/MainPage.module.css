@@ -1,0 +1,31 @@
+.engfont {
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+.korfont {
+    unicode-range: U+AC00-D7A3;
+}
+
+.title {
+    color: #222;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: #222,
+}
+
+.guide {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 6%;
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+    cursor: default;
+}
+
+.guide span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+

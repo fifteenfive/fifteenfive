@@ -1,0 +1,59 @@
+.review_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.review_data {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 0 30px;
+}
+
+.review_data h6 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.review_data h6:hover {
+  text-decoration: underline;
+}
+
+.review_data div {
+  display: flex;
+  margin: 4px 0;
+  align-items: center;
+}
+
+.content_box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  min-height: 80px;
+}
+
+.like_icon {
+  margin: 0 5px 0 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.content_box .like_box {
+  display: flex;
+  color: #BE3B3A;
+  width: 5rem;
+}
+
+.like_box p {
+  width: 20px;
+  text-align: center;
+}
+
+hr {
+  background-color: lightgray;
+  border: 2px solid lightgray;
+  margin: 25px 0;
+}

@@ -1,0 +1,10 @@
+.h1 {
+  font-size: 3rem;
+  padding-top: 0.4rem;
+  margin: 0;
+  color: #222;
+}
+
+.underline {
+  border: solid 3px #E8E8E8; width: 10%;
+}

@@ -1,0 +1,68 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.container p {
+  font-size: 1.2rem;
+}
+
+.image {
+  background-image: url("../../assets/wine3.jpeg"); /* The image used */
+  height: 15rem; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.fs2 {
+  font-size: 2rem;
+}
+
+.r3 {
+  color: #CD5C5C;
+}
+
+.g1 {
+  color: #666;
+}
+
+.g2 {
+  color: #ccc;
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
+.mt6 {
+  margin-top: 6rem;
+}
+
+.mt4 {
+  margin-top: 4rem;
+}
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mt05 {
+  margin-top: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underline {
+  border: solid 3px #E8E8E8; width: 10%;
+}

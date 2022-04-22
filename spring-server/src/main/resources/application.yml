@@ -1,0 +1,41 @@
+spring:
+  jpa:
+    generate-ddl: 'false'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: 'true'
+        show_sql: 'true'
+    database: mysql
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: none
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: 'true'
+  profiles:
+    include: aws
+  datasource:
+    password: Wine123@@@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: wine
+    url: jdbc:mysql://localhost:3306/a307_db?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+logging:
+  level:
+    org:
+      springframework:
+        web: debug
+        nodeValue: debug
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql: trace
+file:
+  dir: /Users/euijinpang/reviewImg/
+multipart:
+  maxRequestSize: 10MB
+  maxFileSiz: 1MB
+server:
+  port: '8080'

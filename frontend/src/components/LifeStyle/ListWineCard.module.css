@@ -1,0 +1,12 @@
+.engname {
+  color: #929292;
+}
+
+.price {
+  color: #222;
+  margin-top: 1rem;
+}
+
+.paper:hover {
+  box-shadow: 3px 3px 10px 4px lightgray;
+}
