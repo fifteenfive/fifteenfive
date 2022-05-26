@@ -20,19 +20,15 @@
 협업 필터링 알고리즘의 최대 약점인 콜드스타트 문제(첫 가입 유저는 상품에 대한 평가데이터가 없어 추천해주지 못하는 문제) 를 해결함과 동시에<br>
 나와 같은 라이프스타일인 유저를 찾아보는 재미를 느낄 수 있으며<br>
 자세한 와인 정보 없이도 다양한 추천을 받을 수 있는 서비스입니다.<br/>
-- 소개 바로가기 : https://j6a307.p.ssafy.io/about
 
 #### :wine_glass: 기획배경
 > 최근 혼술을 하는 인원의 수가 많이 늘어나고 있습니다. <br/>
 또한 이마트, 편의점, 백화점 등에도 와인을 쉽게 접하면서 와인에 대한 관심도가 높아지고 있습니다.<br/>
 하지만 관심도에 비해 개인화된 와인 추천을 받을 수 있는 서비스는 찾기 어렵습니다. <br/>
-15.5도는 와인 입문자들도 라이프스타일만 선택하면 만족스러운 와인을 추천받을 수 있도록 기획하였습니다. <br/>
+15.5도는 와인 입문자들도 라이프스타일만 선택하면 만족스러운 와인을 추천받을 수 있도록 기획하였습니다. <br/>
 
 #### UCC
 https://www.youtube.com/watch?v=lle-oZIPz_k&feature=youtu.be
-
-#### 최종 발표자료
-https://shorturl.at/dlowE
 
 #### :wine_glass: 주요기능
 - 와인 Top 10 순위
@@ -91,9 +87,9 @@ https://shorturl.at/dlowE
 |  이름  |        역할        | <div align="center">개발 내용</div> |
 | :----: | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 방의진 | Back-end<br />팀장 | - DB 설계<br />- Spring Data JPA & Swagger API 세팅<br/> - Spring Boot로 RESTful API 작성(유저 관리 API, 와인정보 API, 리뷰 API)<br />- 스프링 시큐리티, JWT를 이용한 인증 구현<br />- 대량의 이미지 처리를 위한 Amazon S3 Bucket 연동<br />- EC2 인프라 환경 세팅 및 배포<br />  - Gitlab webhook, Jenkins, Docker를 활용한 CI/CD<br />- Letsencrypt, Certbot을 이용한 서비스 SSL 보안 적용<br />- Nginx 웹서버 적용(Load Balancing, Reverse Proxy, Service Redirect설정)<br />- 트래픽 분산을 위해 여러 대의 스프링 도커 서버로 리버스프록시 구성<br /> - 도커 컨테이너 환경에서 장고-크론탭 실행 <br /> - 프로젝트 관리(Notion, Mattermost, Jira)<br />|
-| 김동영 |      Back-end      |  - Spring-boot API 구현(마이페이지 API)<br /> - UCC 제작<br /> - API 연동 테스트<br /> |
+| 김동영 |      Back-end      |  - Spring-boot API 구현(마이페이지 API)<br /> - UCC 제작<br /> - API 연동 테스트<br /> |
 | 채예은 |      Back-end      | - DB 설계<br />- Selenium, Beautiful soup을 활용해 와인 리뷰 데이터 크롤링<br />- Pandas로 수집한 데이터 전처리 & 정제<br />- Django로 평점, 위시리스트를 통한 User-based,  Item-based 협업 필터링 추천 시스템 구현<br />- Crontab으로 Django 추천 알고리즘 주기적 실행<br />- 프론트엔드 디자인 수정<br /> |
-| 유재룡 |     Back-end       |  - DB 설계<br />- Python를 이용한 Data 크롤링<br />- Springboot와 Django 간의 API 구축 및 연결<br />- CSV 및 Python을 이용한 데이터 정제 및 MySQL 데이터 삽입<br />- DB 및 ERD 제작 및 관리<br /> - Readme, PPT 등 문서 작업<br />|
+| 유재룡 |     Back-end       |  - DB 설계<br />- Python를 이용한 Data 크롤링<br />- Springboot와 Django 간의 API 구축 및 연결<br />- CSV 및 Python을 이용한 데이터 정제 및 MySQL 데이터 삽입<br />- DB 및 ERD 제작 및 관리<br /> - Readme, PPT 등 문서 작업<br />|
 | 김선민 |     Front-end     |    - React와 Route를 사용하여 SPA 및 조건부 렌더링 구현<br />- Redux를 사용하여 전역 상태 관리<br />- Axios를 이용한 API 비동기 통신<br />- styled-components와 material-ui를 이용한 레이아웃 구현 및 css 스타일링<br />- UCC 시연 영상 제작<br /> |
 | 나지엽 |     Front-end      | - React, Route, Redux를 사용하여 SPA 및 조건부 렌더링 구현<br />- Axios를 이용한 API 비동기 통신<br />- styled-component와 material-ui, react slick을 이용한 레이아웃 구현 및 css 스타일링<br />  |
 
@@ -129,7 +125,7 @@ https://shorturl.at/dlowE
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 
 # :bookmark_tabs: 서버 아키텍쳐
-![SERVER](./picture/server.jpeg)
+![SERVER](./picture/server.jpeg)
 
 # :bookmark_tabs: ERD
 ![ERD](./picture/특화_1차.png)
